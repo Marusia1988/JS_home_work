@@ -1,0 +1,69 @@
+body{
+    text-align: center;
+    font-family: Calibri;
+}
+
+.name, .age{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#form {
+    width: 300px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.welcome {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input {
+    margin-bottom: 10px;
+    background: #aaa9a90b;
+    height: 54px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    color: #4B4B4B;
+    border: 1px solid #000;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: Calibri;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background: #01c774;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: Calibri;
+}
+
+button:hover {
+    background: #0d8d58;
+}
+
+.wrapper {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius:10px;
+    width: 400px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
