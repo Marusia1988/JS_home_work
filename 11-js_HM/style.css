@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+* {
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    background-color: #1b1716;
+}
+.form {
+    margin: 0 auto;
+    width: 250px;
+    background: rgb(63, 3, 3);   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgba(243, 181, 181, 0.808);
+
+}
+.input {
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(161, 161, 161);
+    font-size: 15px;
+}
+
+
+
+
+.btn, .clear, .remove, .profile {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    background-color:#ff7451;
+    color: rgb(5, 5, 5);
+    border: none;
+    border-radius:10px;
+    font-size: 18px;
+    line-height: 38px;
+    margin-bottom: 10px;
+    
+}
+
+.btn:hover{
+    background-color:#f85f38;
+}
+
+.clear:hover{
+    background-color:#f85f38;
+}
+
+.wraper {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.item {
+    padding: 20px;
+    background: #000;   
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(129, 129, 129, 0.438);
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.visible {
+    opacity: 1;
+}
+
+
+.img {
+    width: 200px ;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.login {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.login::first-letter{
+    text-transform: uppercase;
+}
+.descr {
+    color: #fff;
+    margin-bottom: 10px;
+
+}
